@@ -15,4 +15,15 @@
     git commit -m 'GitCommand file was created and added commands to file'
 
 4. Push the work done to GitHub
-    git push 
+    a) Push to existing branch
+        git push 
+    b) push new branch
+        git push --set-upstream origin 'new_branch_name'
+
+5. Check the current branch
+    git branch 
+6. Switch to another branch
+    git checkout 'branch_name'
+    ex - git checkout test
+7. Create new branch
+    git checkout -b 'new_branch_name'
