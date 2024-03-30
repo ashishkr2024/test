@@ -1,0 +1,18 @@
+
+1. Clone repository from GitHub
+    git clone 'repository_url'
+
+// done some works now need to add those works to git
+
+2. 
+    // to add specific file changed
+    a) git add file1 file2 ... fileN
+
+    // add all files
+    b) git add --all OR git add . OR git add *
+
+3. Commit the work done
+    git commit -m 'GitCommand file was created and added commands to file'
+
+4. Push the work done to GitHub
+    git push 
